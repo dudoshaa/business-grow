@@ -1,0 +1,68 @@
+@import "./global.css";
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0a0c1c;
+  color: #fff;
+}
+
+.card {
+  width: 1110px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #1b1937;
+  border-radius: 8px;
+}
+.cards {
+  padding: 71px;
+}
+.card__title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  margin-bottom: 25px;
+}
+.violet-text {
+  color: #ab5cdb;
+}
+.card__description {
+  width: 374px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  opacity: 75%;
+  margin-bottom: 72px;
+}
+.card__stats {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card__stat--text {
+  font-family: "Lexend Deca";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 25px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  opacity: 60%;
+}
+.card__stat--number {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  margin-bottom: 2px;
+}
+
+.card__image-content {
+  top: 155px;
+  left: 626px;
+  opacity: 0.75;
+}
